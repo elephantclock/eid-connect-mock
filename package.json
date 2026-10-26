@@ -1,0 +1,43 @@
+{
+  "name": "@elephantclock/eid-connect-mock",
+  "version": "1.0.0",
+  "description": "Mock EID Connect bridge that streams synthetic Emirates ID card reads - build and test without a reader.",
+  "type": "module",
+  "bin": {
+    "eid-connect-mock": "bin/eid-connect-mock.js"
+  },
+  "exports": "./src/server.js",
+  "files": [
+    "bin",
+    "src",
+    "LICENSE",
+    "COMMERCIAL.md"
+  ],
+  "scripts": {
+    "start": "node bin/eid-connect-mock.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "emirates-id",
+    "emirates id reader",
+    "uae",
+    "eid",
+    "smart-card",
+    "nfc",
+    "sse",
+    "mock"
+  ],
+  "author": "ElephantClock Technology <info@elephantclock.tech> (https://www.elephantclock.ae)",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "homepage": "https://elephantclock.github.io/eid-connect/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elephantclock/eid-connect-mock.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
