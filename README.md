@@ -1,7 +1,7 @@
 # EID Connect Mock: build Emirates ID integrations without a reader
 
 > **Ready to go live with real cards?** The production EID Connect reader service is commercially licensed.
-> **[Get a commercial licence or free trial →](./COMMERCIAL.md)** · [info@elephantclock.tech](mailto:info@elephantclock.tech?subject=EID%20Connect) · [WhatsApp +971 50 702 2916](https://wa.me/971507022916)
+> **[Get a commercial licence or free trial →](./COMMERCIAL.md)** · [info@elephantclock.ae](mailto:info@elephantclock.ae?subject=EID%20Connect) · [WhatsApp +971 50 702 2916](https://wa.me/971507022916)
 
 A drop-in stand-in for the EID Connect bridge. It serves the **same HTTP + Server-Sent
 Events protocol** on the same port, and streams **synthetic** Emirates ID card reads. Use it
